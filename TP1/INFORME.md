@@ -54,6 +54,7 @@ Esta parte termina con una comparativa de aceleracion del AMD Ryzen 9 7950X 16-C
 Teniendo en cuenta el tiempo de ejecucion, la aceleracion de este ultimo respecto a los ya analizados es
 - Intel i5-13600K -> x1,53
 - AMD Ryzen 9 5900X -> x1,83
+
 Como se puede observar, el Ryzen 9 7950X es considerablemente mas potente que ambos.
 Vale considerar tambien que este ultimo se encuentra a un precio de ~U$D520, y un TDP de 170W, lo que significa una gran diferencia a favor de los menos potentes.
 
