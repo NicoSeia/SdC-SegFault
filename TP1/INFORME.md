@@ -169,7 +169,7 @@ Aplicando la flag -Q<función> se suprime graph information sobre la función se
 
 # Benchmarks
 
-## _**Motion Mark 1.0 - Capacidad renderizado gráfico browser.**__
+## _**Motion Mark 1.0 - Capacidad renderizado gráfico browser.**_
 
  1. Benchmark que mide la capacidad de renderizado gráfico de un navegador.
 
@@ -186,7 +186,7 @@ Aplicando la flag -Q<función> se suprime graph information sobre la función se
 
 
 
-## _**Basemark - Cargado y renderizado de páginas._**
+## _**Basemark - Cargado y renderizado de páginas.**_
 
 1. Benchmark multiplataforma que evalúa el rendimiento de navegadores y dispositivos.
 
