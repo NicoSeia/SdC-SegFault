@@ -58,6 +58,16 @@ Teniendo en cuenta el tiempo de ejecucion, la aceleracion de este ultimo respect
 Como se puede observar, el Ryzen 9 7950X es considerablemente mas potente que ambos.
 Vale considerar tambien que este ultimo se encuentra a un precio de ~U$D520, y un TDP de 170W, lo que significa una gran diferencia a favor de los menos potentes.
 
+## Comparacion con nuestro dispositivo
+Para agregar otro punto de comparacion realizamos el testeo de compilacion del kernel sobre una de nuestras computadors. Esta cuenta con las siguientes especificaciones:
+- AMD Ryzen 7 7435HS (8 cores 16 threads)
+Al realizar la compilacion esta tardo 131 segundos, poniendola por debajo de los 3 procesadores anteriores. Comparando con los otros procesadors obtenemos que:
+- Intel Core i5-13600K es 1.35 veces más rápido
+- AMD Ryzen 9 5900X 12-Core es 1.58 veces más rápido
+- AMD Ryzen 9 7950X 16-Core es 2.47 veces más rápido
+
+
+
 ## Conclusiones
 Si lo que se busca es potencia bruta, podemos decir que el AMD Ryzen 9 7950X 16-Core es claramente el ganador.
 Por otra parte, en cuanto a rendimiento por precio el Intel i5 es el más indicado. 
