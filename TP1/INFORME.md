@@ -69,7 +69,7 @@ Si de consumo se habla el AMD Ryzen 9 5900X  12-core es el mejor, pero la minima
 
 Para comenzar la el test de profiling g_prof primero debemos tener dos archivos como los que se muestran, que fueron brindados por el profesor.
 
-![Image](https://github.com/user-attachments/assets/72ec18e2-d4dc-479e-b404-5245b3d0b332)
+![image](https://github.com/user-attachments/assets/34331494-33cd-449c-871b-0a04ac29dda8)
 
 Dentro de estos encontramos lo siguiente:
 test_gprof.c: 
@@ -77,13 +77,13 @@ test_gprof_new.c:
 
 Se compilan ambos archivos juntos para obtener test_gprof (como ejecutable). Este se corre en la terminal y se genera un archivo de salida gmon.out
 
-![Image](https://github.com/user-attachments/assets/a5d713a1-5a1b-44bd-af49-cdf40916026d)
+![image](https://github.com/user-attachments/assets/c0a6c46a-ab7b-4ff4-bfa8-611ab9054a77)
 
 Este archivo se puede manejar para obtener la salida en un archivo analysis.txt, donde se guardará toda la información que devuelve el test.
 
 El instructivo nos brinda diferentes formas de ejecutar el test dependiendo de la información específica que se requiera. A continuación se detalla la salida de cada ejecución.
 
-![Image](https://github.com/user-attachments/assets/74de356f-62fa-4a43-a304-d2382dab25e0)
+![image](https://github.com/user-attachments/assets/2b936ccd-edfb-412e-be6a-bee0b22c4c57)
 
 
 
@@ -91,7 +91,7 @@ El instructivo nos brinda diferentes formas de ejecutar el test dependiendo de l
 
 Aplicando la flag -a se suprimen las funciones declaradas estáticamente (privadas). Por ejemplo, en este caso la func2 no devolverá información por ser estática.
 
-![Image](https://github.com/user-attachments/assets/fe628b27-24f7-40e3-ab02-b1a075c15e7d)
+![image](https://github.com/user-attachments/assets/8e183143-ec5f-415c-b94c-0134e1a32902)
 
 
 
@@ -99,7 +99,7 @@ Aplicando la flag -a se suprimen las funciones declaradas estáticamente (privad
 
 Aplicando la flag -b se suprimen los textos detallados. Entonces podemos observar que se obtienen solo gráficos y resultados concretos del test.
 
-![Image](https://github.com/user-attachments/assets/20523f80-0183-4710-a5a8-8a2ec67296a8)
+![image](https://github.com/user-attachments/assets/b1e52f17-d24f-42b2-8f93-99c9172e1d48)
 
 
 
@@ -107,7 +107,7 @@ Aplicando la flag -b se suprimen los textos detallados. Entonces podemos observa
 
 Aplicando la flag -p se obtiene como salida solo el perfil plano.
 
-![Image](https://github.com/user-attachments/assets/e4cd8337-f6c2-406a-a8a1-fb87c07ebe3b)
+![image](https://github.com/user-attachments/assets/f6df6621-1ae1-4cad-a814-0154ced86f9c)
 
 
 
@@ -115,7 +115,7 @@ Aplicando la flag -p se obtiene como salida solo el perfil plano.
 
 Aplicando la flag -p<funcion> se imprime la información relacionada con la función indicada.
 
-![Image](https://github.com/user-attachments/assets/7303302e-a90c-466b-b66b-4a5ec115f57f)
+![image](https://github.com/user-attachments/assets/247f7418-7da8-4777-8ae2-5f481f49a8d1)
 
 
 
@@ -123,7 +123,7 @@ Aplicando la flag -p<funcion> se imprime la información relacionada con la func
 
 Aplicando la flag -P se suprime el flat profile.
 
-![Image](https://github.com/user-attachments/assets/fe44c884-16c3-4c5a-b66d-d0fcda4582f3)
+![image](https://github.com/user-attachments/assets/b1e875c1-126f-487c-a503-b5ffabfd3b96)
 
 
 
@@ -131,7 +131,8 @@ Aplicando la flag -P se suprime el flat profile.
 
 Aplicando esta flag se suprime la función determinada en el flat profile.
 
-![Image](https://github.com/user-attachments/assets/6495901f-981b-4b57-897f-9cca32dcec0e) 
+![image](https://github.com/user-attachments/assets/9e8388e7-65b5-4a6a-9164-dd30ca078cdc)
+
 
 
 
@@ -139,7 +140,7 @@ Aplicando esta flag se suprime la función determinada en el flat profile.
 
 Aplicando la flag -q se imprime solo graph information.
 
-![Image](https://github.com/user-attachments/assets/14ab051e-668d-4bb5-b5c7-5f26d7368900)
+![image](https://github.com/user-attachments/assets/8f32ed48-9308-49fc-b3c0-8511b4678def)
 
 
  
@@ -147,7 +148,7 @@ Aplicando la flag -q se imprime solo graph information.
 
 Aplicando esta flag se imprime solo la información solicitada en call graph.
 
-![Image](https://github.com/user-attachments/assets/35980b63-bea6-470d-a466-6e929d936a99)
+![image](https://github.com/user-attachments/assets/ec7e96ff-434a-4d88-b577-ea08a65999b4)
 
 
 
@@ -155,7 +156,7 @@ Aplicando esta flag se imprime solo la información solicitada en call graph.
 
 Aplicando la flag -Q se suprime call graph.
 
-![Image](https://github.com/user-attachments/assets/c73d55d8-6145-47fd-a891-d1e66e164869)
+![image](https://github.com/user-attachments/assets/0f1246b8-5a59-4abe-9836-2a861812fd73)
 
 
 
@@ -163,7 +164,8 @@ Aplicando la flag -Q se suprime call graph.
 
 Aplicando la flag -Q<función> se suprime graph information sobre la función seleccionada.
 
-![Image](https://github.com/user-attachments/assets/5b8af77f-b4e4-4080-86eb-620b21dec37d)
+![image](https://github.com/user-attachments/assets/b93a6260-35c5-4766-8b9c-f0e36631bfd4)
+
 
 ---
 
@@ -182,7 +184,8 @@ Aplicando la flag -Q<función> se suprime graph information sobre la función se
 
  4. Su resultado se expresa en puntos, reflejando cuántos FPS puede mantener el navegador.
 
-![Image](https://github.com/user-attachments/assets/205f651e-2972-420c-abf9-9bcbca6530b9)
+![image](https://github.com/user-attachments/assets/c6f069c7-ef9b-44ee-9ac6-f870274cb8b8)
+
 
 
 
@@ -199,7 +202,8 @@ Aplicando la flag -Q<función> se suprime graph information sobre la función se
 
 4. Su puntuación final representa la eficiencia del sistema en tareas web exigentes.
 
-![Image](https://github.com/user-attachments/assets/039b1ab8-780a-4c80-bd79-bec172b48fa6)
+![image](https://github.com/user-attachments/assets/01885cfa-6ff3-48ef-98e0-12bf2343f7f3)
+
 
 
 
@@ -216,7 +220,8 @@ Aplicando la flag -Q<función> se suprime graph information sobre la función se
 
 4. Su puntuación refleja la velocidad con la que el motor ejecuta código en milisegundos.
 
-![Image](https://github.com/user-attachments/assets/348c140b-6cda-4f40-be8e-6a1ab63c57a7)
+![image](https://github.com/user-attachments/assets/81a08459-33c8-46e7-9cbb-e81e66f3df6b)
+
 
 
 
@@ -233,7 +238,8 @@ Aplicando la flag -Q<función> se suprime graph information sobre la función se
 
 4. Permite generar carga en múltiples hilos para simular estrés en el hardware.
 
-![Image](https://github.com/user-attachments/assets/f1b4a275-4b8f-4183-8897-5afbc642f3f6)
+![image](https://github.com/user-attachments/assets/605419ea-1c04-473c-bfb6-41f1f436b120)
+
 
 ---
 
@@ -242,6 +248,7 @@ Aplicando la flag -Q<función> se suprime graph information sobre la función se
 Para la experiencia de modificar la frecuencia de una placa y revisar el tiempo que tarda en hacer cálculos hemos utilizado una placa ESP32 NodeMCU. 
 Se programó para calcular la serie de Fibonacci de 5000, calculando el tiempo con frecuencias de 80 Mhz, 160 Mhz y 240 Mhz.
 
-![Image](https://github.com/user-attachments/assets/1de1fe35-147c-48fe-9646-1203b3425c54)
+![image](https://github.com/user-attachments/assets/cdf2b084-3dc3-48d4-96da-aebe372a27e0)
+
 
 Como se puede observar en la imagen, al variar la frecuencia se puede considerar una variación del tiempo cercana a la lineal.
